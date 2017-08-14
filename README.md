@@ -1,24 +1,19 @@
 # README
+1. to populate the data into the table:
+ 
+	i have added the .csv file in vendors.
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+	I have executed the following rake task 
 
-Things you may want to cover:
+	"rake import :csv" to populate the data.
 
-* Ruby version
 
-* System dependencies
 
-* Configuration
+2. type is already a keyword in ruby hence i have changed its name to  property_type
 
-* Database creation
 
-* Database initialization
+3. Please refer the api documentation for complete api references.
 
-* How to run the test suite
 
-* Services (job queues, cache servers, search engines, etc.)
+4. i have done the testing as well by running rake test commands.
 
-* Deployment instructions
-
-* ...
